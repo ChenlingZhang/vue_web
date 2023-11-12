@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
     <router-view/>
   </div>
 </template>
 
 <style>
+@font-face {
+  font-family: "HarmonySans_Medium";
+  src: url(./static/font/HarmonyOS_Sans/HarmonyOS_Sans_Medium.ttf);
+}
+
+@font-face {
+  font-family: "HarmonySans_Thin";
+  src: url(./static/font/HarmonyOS_Sans/HarmonyOS_Sans_Thin.ttf);
+}
+
+@font-face {
+  font-family: "HarmonySans_Blod";
+  src: url(./static/font/HarmonyOS_Sans/HarmonyOS_Sans_Bold.ttf);
+}
+
+@font-face {
+  font-family: "HarmonySans_Regular";
+  src: url(./static/font/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf);
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif, HarmonySans_Medium, HarmonySans_Thin,HarmonySans_Blod,HarmonySans_Regular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
