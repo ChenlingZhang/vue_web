@@ -12,6 +12,8 @@ import PerformanceView from '../views/PerformanceView.vue'
 import SoildColorView from '../views/SoildColorView.vue'
 import VisionCaseView from '../views/VisionCaseView.vue'
 import WoodView from '../views/WoodView.vue'
+import ContactView from '../views/ContactView.vue'
+import LocationView from '../views/LocationView.vue'
 
 const orginal = VueRouter.prototype.push
 
@@ -81,6 +83,16 @@ const routes = [
     path:'/finished',
     name:'Finished',
     component: FinishedView
+  },
+  {
+    path:'/contact',
+    name: 'contact',
+    component: ContactView
+  },
+  {
+    path:'/location',
+    name:'location',
+    component:LocationView
   }
 ]
 
