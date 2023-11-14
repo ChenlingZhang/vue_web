@@ -15,11 +15,14 @@
           )
         "
       ></el-image>
-      <el-image
+
+      <!-- 暂时搁置 Instagram 图标链接  -->
+      <!-- <el-image
         :src="require('../static/icon/instagram.png')"
         class="social_icon"
         @click="route2socialmedia('https://www.instagram.com/hplshirliway/')"
-      ></el-image>
+      ></el-image> -->
+      
       <el-image
         :src="require('../static/icon/youtube.png')"
         class="social_icon"

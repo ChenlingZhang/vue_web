@@ -13,7 +13,7 @@
 
       <el-submenu index="1">
         <template slot="title">PRODUCTS</template>
-        <el-submenu index="1-1">
+        <el-submenu index="1-1" style="width: 100px; height: 50px; display: inline;">
           <template slot="title">PAGENNI</template>
           <el-menu-item index="1-1-1">WOOD</el-menu-item>
           <el-menu-item index="1-1-2">MARBLE</el-menu-item>
@@ -80,7 +80,6 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  color: black;
   font-size: 50px;
 }
 
@@ -98,6 +97,9 @@
 .el-submenu,
 .el-menu-item {
   display: flex;
+  outline: 1px;
+  outline-color: #929292;
+  outline-width: 1px;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -112,6 +114,14 @@
     width: 100%;
     height: 100%;
 }
+
+.el-submenu__icon-arrow{
+  display: flex;
+  color: #929292;
+  justify-content: center;
+  padding-left: 10px;
+}
+
 .appFrame {
     width: 100%;
     height: 100%;
