@@ -38,7 +38,7 @@
 
       <el-menu-item @click="appointment()">APPOINTMENT</el-menu-item>
 
-      <el-menu-item @click="move2About()">ABOUT</el-menu-item>
+      <el-menu-item @click="move2About()">SHIRLIWAY</el-menu-item>
 
       <div class="search">
         <el-menu-item>
@@ -75,7 +75,7 @@
 
 .navi_bar {
   width: 100%;
-  height: 120px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-content: center;
